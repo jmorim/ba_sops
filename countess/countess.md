@@ -1,10 +1,10 @@
 ---
 title: Countess II FL Automated Cell Counter
-author: Josh Morimoto
 header-includes: |
     \usepackage{fancyhdr}
     \pagestyle{fancy}
     \usepackage{lastpage}
+    \usepackage{graphicx}
     \fancyhead[LO,LE]{Department of Chemistry, Tufts University}
     \fancyfoot[LO,LE]{Revised \date{\today}}
     \fancyfoot[RO,RE]{Morimoto}
