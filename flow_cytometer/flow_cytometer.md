@@ -29,7 +29,9 @@ header-includes: |
 7. Click `Adjust Settings`
 8. Place your plate in the ejected tray
 9. Follow the on-screen instructions for the eppendorf tube contents
+
     ![vial_instr](images/vial_instr.png){height=120px }\
+
     then click `OK`
 10. Another `Adjust Settings` panel will appear. Click a well to acquire and
     click `OK`. Adjust settings as necessary
@@ -43,6 +45,7 @@ header-includes: |
 13. Select one of the samples
 14. Set the event gate by clicking on the ` New Region` button on the plot and
     selecting the gate shape
+
     ![gate](images/gate1.png){ height=240px }\
 15. Apply the gate to plot 2 by clicking this button over there
     ![button](images/button.png){ height=24px }\ and select either dimension
