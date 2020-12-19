@@ -9,7 +9,8 @@ import os
 ### pandoc -s -o countess.html -c ../templates/github.css countess.md
 ### --variable urlcolor=cyan
 ## docx
-### pandoc -o countess.docx countess.md --variable urlcolor=cyan
+### pandoc -o countess.docx countess.md
+### --reference-doc=../templates/referencec_doc.docx --variable urlcolor=cyan
 #------------------------------------------------------------------------------
 
 #folder_list = os.listdir('.')

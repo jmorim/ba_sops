@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Varioskan LUX Plate Reader</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../templates/github.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">Varioskan LUX Plate Reader</h1>
+</header>
+<h2 id="preparation">Preparation</h2>
+<ol type="1">
+<li><p>Pipette your samples in an appropriate scheme on a well plate. An example scheme from the undergrad labs is shown below. Include blanks, standards, and your sample</p>
+<p><img src="images/plate.jpg" height="360" alt="plate" /><br />
+</p></li>
+</ol>
+<h2 id="acquisition">Acquisition</h2>
+<ol start="2" type="1">
+<li><p>Start the <code>SkanIt</code> software on the attached PC</p></li>
+<li><p>Click <code>Other instrument types</code> and select <code>New session for Varioskan LUX</code></p></li>
+<li><p>Select <code>Plate Layout</code> from the tree on the left</p></li>
+<li><p>In the <code>Plate template</code> dropdown menu, select the appropriate plate for analysis, most likely <code>Corning, U-bottom, 96-well</code></p></li>
+<li><p>Populate the wells in the software according to their sample type. You can drag the cursor to populate multiple wells</p></li>
+<li><p>Select <code>Protocol</code> in the session tree and click <code>Absorbance</code>, <code>Fluorescence</code>, <code>Luminescence</code>, or <code>TRF</code> depending on your assay. Input the appropriate parameters, e.g. measurement wavelength for <code>Absorbance</code></p></li>
+<li><p><em>Optional</em> Select <code>Protocol</code> in the session tree to change measurement order and delay</p></li>
+<li><p><em>Optional</em> Select <code>Report</code> to customize the output of your results</p></li>
+<li><p>In the bottom left of the window, click the button with the red arrow to eject the plate reader tray</p>
+<p><img src="images/plate_controls.png" height="120" alt="eject" /><br />
+</p></li>
+<li><p>Insert the plate into the tray <strong>with the lid off</strong>. Leaving the lid on will cause a jam</p></li>
+<li><p>Click the button with the green upwards arrow to insert the plate into the instrument</p></li>
+<li><p>Click <code>Start</code> to begin the assay. Save your experiment with the appropriate directory and filename</p></li>
+</ol>
+<h2 id="reporting">Reporting</h2>
+<ol start="14" type="1">
+<li>Under the <code>Report</code> branch, click <code>Summary</code>. From the top right, select your desired reporting format to export.</li>
+</ol>
+<p>For more information see the full instruction manuals at</p>
+<p><a href="https://assets.thermofisher.com/TFS-Assets/LCD/manuals/Varioskan-LUX-Technical-Manual.pdf">https://assets.thermofisher.com/TFS-Assets/LCD/manuals/Varioskan-LUX-Technical-Manual.pdf</a></p>
+<p>and</p>
+<p><a href="https://assets.thermofisher.com/TFS-Assets/LCD/manuals/Varioskan-LUX-User-Manual.pdf">https://assets.thermofisher.com/TFS-Assets/LCD/manuals/Varioskan-LUX-User-Manual.pdf</a></p>
+</body>
+</html>
