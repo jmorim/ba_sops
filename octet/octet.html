@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>FortèBio Octet K2</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="../templates/github.css" />
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">FortèBio Octet K2</h1>
+</header>
+<h1 id="basic-kinetics-experiment">Basic Kinetics Experiment</h1>
+<h2 id="preparation">Preparation</h2>
+<ol type="1">
+<li>Pipette phosphate-buffered saline — or whichever buffer system in which your proteins are well-behaved — into a 96-well plate and place a sensor array on top of it to prehydrate the sensors</li>
+<li>Pipette your samples in an appropriate scheme on another 96-well plate, including blank wells for baseline acquisition and dissociation measurements</li>
+<li>Open the Octet cabinet and place the sensor array on the tray on the left and the well plate on the tray on the right, aligning the A1 well to the top right corner</li>
+<li>Close the cabinet</li>
+</ol>
+<h2 id="acquisition">Acquisition</h2>
+<ol start="5" type="1">
+<li><p>On the attached PC, start the Octet Data Acquisition Software</p></li>
+<li><p>Define buffers and samples in the <code>Plate Definition</code> window in the acquisition software by dragging the mouse to highlight the desired wells. Right click to specify wells as sample, reference, control, buffer, activation, etc.</p>
+<p><img src="images/plate_table.png" height="240" alt="sample_def" /><br />
+</p></li>
+<li><p>Enter your Sample IDs, the concentrations, and molecular weights for your samples in the plate table</p></li>
+<li><p>In the <code>Assay Definition</code> tab, select your buffer wells and specify the assay type as <code>Baseline</code>, and specify the time (in seconds) and shake speed (in rpm). Assay steps are run in pairs so you will be defining two steps at a time</p></li>
+<li><p>Double click an item in the <code>Step Data List</code> to add it to the <code>Assay Steps    List</code></p></li>
+<li><p>Select your protein wells, click <code>Add</code>, and specify them as <code>Association</code> assays</p></li>
+<li><p>Select the next buffer wells, click <code>Add</code>, and specify them as <code>Dissociation</code> assays</p></li>
+<li><p>Select the assay steps under <code>Assay Steps List</code> and use the <code>Replicate</code> button to repeat experiments with different wells. Note that the total experiment time will update in the bottom right of the panel</p></li>
+<li><p>Change the <code>Sensor Type</code> in each assay step to the sensor being used</p>
+<p><img src="images/assay_steps.png" height="240" alt="assay_steps" /><br />
+</p></li>
+<li><p>Select the <code>Sensor Assignment</code> tab. Under the <code>Sensory Tray</code> panel, drag the mouse to select your sensors and right click to assign them</p>
+<p><img src="images/sensors.png" height="240" alt="sensors" /><br />
+</p></li>
+<li><p>In the <code>Run Experiment</code> tab, specify where to save you data. You can uncheck <code>Delayed Experiment Start</code> if your sensors are already prehydrated or adjust the delay time</p></li>
+<li><p>Click <code>Go</code> to begin the experiment</p></li>
+</ol>
+<p>For more information see the data analysis manual at</p>
+<p><a href="http://www.biophysics.bioc.cam.ac.uk/wp-content/uploads/2019/10/Data-Analysis-Octet.pdf">http://www.biophysics.bioc.cam.ac.uk/wp-content/uploads/2019/10/Data-Analysis-Octet.pdf</a></p>
+</body>
+</html>
